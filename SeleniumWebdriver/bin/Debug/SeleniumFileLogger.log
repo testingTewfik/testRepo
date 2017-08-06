@@ -1,0 +1,38 @@
+19-Mar-2016-20:02:01 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [GetPhantomJsDrvierService] -  Using PhantomJS Driver Service  
+19-Mar-2016-20:02:04 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using PhantomJs Driver  
+19-Mar-2016-20:02:11 [SeleniumWebdriver.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Mar-2016-20:02:26 [SeleniumWebdriver.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://localhost:5001/
+19-Mar-2016-20:02:44 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.LinkText: File a Bug
+19-Mar-2016-20:02:46 [SeleniumWebdriver.ComponentHelper.LinkHelper] [INFO] [ClickLink] -  Clicking on link : By.LinkText: File a Bug
+19-Mar-2016-20:02:47 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.PartialLinkText: File
+19-Mar-2016-20:02:54 [SeleniumWebdriver.TestScript.HyperLink.TestHyperLink] [ERROR] [ClickLink] - OpenQA.Selenium.NoSuchElementException: Element Not Found : By.PartialLinkText: File
+   at SeleniumWebdriver.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\rahul.rathore\documents\visual studio 2015\Projects\SeleniumWebdriver\SeleniumWebdriver\ComponentHelper\GenericHelper.cs:line 93
+   at SeleniumWebdriver.ComponentHelper.LinkHelper.ClickLink(By Locator) in C:\Users\rahul.rathore\documents\visual studio 2015\Projects\SeleniumWebdriver\SeleniumWebdriver\ComponentHelper\LinkHelper.cs:line 18
+   at SeleniumWebdriver.TestScript.HyperLink.TestHyperLink.ClickLink() in C:\Users\rahul.rathore\documents\visual studio 2015\Projects\SeleniumWebdriver\SeleniumWebdriver\TestScript\HyperLink\TestHyperLink.cs:line 30
+19-Mar-2016-20:02:58 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+19-Mar-2016-20:03:46 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [GetPhantomJsDrvierService] -  Using PhantomJS Driver Service  
+19-Mar-2016-20:03:49 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using PhantomJs Driver  
+19-Mar-2016-20:03:49 [SeleniumWebdriver.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Mar-2016-20:04:06 [SeleniumWebdriver.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://localhost:5001/
+19-Mar-2016-20:04:06 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.LinkText: File a Bug
+19-Mar-2016-20:04:08 [SeleniumWebdriver.ComponentHelper.LinkHelper] [INFO] [ClickLink] -  Clicking on link : By.LinkText: File a Bug
+19-Mar-2016-20:04:08 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.PartialLinkText: File
+19-Mar-2016-20:04:10 [SeleniumWebdriver.TestScript.HyperLink.TestHyperLink] [ERROR] [ClickLink] - OpenQA.Selenium.NoSuchElementException: Element Not Found : By.PartialLinkText: File
+   at SeleniumWebdriver.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\rahul.rathore\documents\visual studio 2015\Projects\SeleniumWebdriver\SeleniumWebdriver\ComponentHelper\GenericHelper.cs:line 93
+   at SeleniumWebdriver.ComponentHelper.LinkHelper.ClickLink(By Locator) in C:\Users\rahul.rathore\documents\visual studio 2015\Projects\SeleniumWebdriver\SeleniumWebdriver\ComponentHelper\LinkHelper.cs:line 18
+   at SeleniumWebdriver.TestScript.HyperLink.TestHyperLink.ClickLink() in C:\Users\rahul.rathore\documents\visual studio 2015\Projects\SeleniumWebdriver\SeleniumWebdriver\TestScript\HyperLink\TestHyperLink.cs:line 30
+19-Mar-2016-20:04:23 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+08-Jan-2017-10:10:37 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [GetPhantomJsDrvierService] -  Using PhantomJS Driver Service  
+08-Jan-2017-10:10:39 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using PhantomJs Driver  
+08-Jan-2017-10:10:39 [SeleniumWebdriver.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Jan-2017-10:10:51 [SeleniumWebdriver.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://localhost:5001/
+08-Jan-2017-10:10:51 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.LinkText: File a Bug
+08-Jan-2017-10:10:52 [SeleniumWebdriver.ComponentHelper.LinkHelper] [INFO] [ClickLink] -  Clicking on link : By.LinkText: File a Bug
+08-Jan-2017-10:10:52 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Bugzilla_login
+08-Jan-2017-10:10:52 [SeleniumWebdriver.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Bugzilla_login : value : rahul@bugzila.com
+08-Jan-2017-10:10:52 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Bugzilla_password
+08-Jan-2017-10:10:52 [SeleniumWebdriver.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Bugzilla_password : value : rathore
+08-Jan-2017-10:10:52 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: log_in
+08-Jan-2017-10:10:54 [SeleniumWebdriver.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.Id: log_in
+08-Jan-2017-10:10:54 [SeleniumWebdriver.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.LinkText: Testng
+08-Jan-2017-10:10:56 [SeleniumWebdriver.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
